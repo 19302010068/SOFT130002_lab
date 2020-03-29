@@ -1,0 +1,141 @@
+/* fonts */
+body
+{
+    font-family: 等线, sans-serif;
+}
+
+/* global settings */
+a:link
+{
+    text-decoration: none;
+}
+
+/* major layout */
+body
+{
+    background-color: ghostwhite;
+}
+
+header
+{
+    background-color: white;
+}
+
+main
+{
+    padding: 0 6rem 0 2.25rem;
+}
+
+article
+{
+    margin: 1rem 0 1rem 0;
+}
+
+aside
+{
+    float: right;
+    position: fixed;
+    bottom: 100px;
+    right: -5px;
+    font-size: 10pt;
+    border: solid 2px silver;
+    border-radius: 5px;
+    box-shadow: silver 0 0 5px;
+    padding: 15px 15px 15px 10px;
+}
+
+body>nav
+{
+    color: navy;
+    font-size: 10pt;
+    padding: 1rem 0 1.25rem 2.25rem;
+}
+
+/* details */
+header a:link
+{
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+header a:hover
+{
+    color: white;
+    background-color: orangered;
+}
+
+#logo
+{
+    background-color: transparent;
+    padding: 0;
+}
+
+header>div
+{
+    color: dodgerblue;
+    font-size: 16pt;
+    text-align: right;
+    margin: -180px 20px 180px 0;
+}
+
+header>nav
+{
+    background-color: navy;
+    border: 2px midnightblue;
+    border-style: solid none solid none;
+    margin-top: -30px;
+    padding: 0.5rem 0 0.5rem 1rem;
+}
+
+header li
+{
+    list-style: none;
+    display: inline;
+    margin: 0.25rem;
+}
+
+header li>a
+{
+    color: lightcyan;
+    font-size: 14pt;
+}
+
+h3
+{
+    color: darkslateblue;
+    font-size: 24pt;
+    padding-top: 1.75rem;
+}
+
+p:first-child
+{
+    font-style: italic;
+    font-size: 13pt;
+    margin-bottom: 0.5rem;
+}
+
+p:last-child, article span
+{
+    color: gray;
+}
+
+aside li:nth-child(2)
+{
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+aside a:hover, nav>a:hover
+{
+    text-decoration: underline;
+}
+
+body>nav>*
+{
+    color: inherit;
+    padding: 0 0.25rem 0 0.25rem;
+}
+
+body>nav>strong
+{
+    font-size: 12pt;
+}

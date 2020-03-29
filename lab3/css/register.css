@@ -1,0 +1,89 @@
+/* fonts */
+body
+{
+    font-family: 等线, sans-serif;
+}
+
+header span
+{
+    font-family: 黑体, 楷体, sans-serif;
+}
+
+/* major layout */
+body
+{
+    padding: 0 2.25rem 0 2.25rem;
+}
+
+header
+{
+    margin-top: 1rem;
+}
+
+form
+{
+    background-color: ghostwhite;
+    border: solid 2px silver;
+    margin-top: 1.5rem;
+    padding: 2rem;
+}
+
+/* details */
+h3
+{
+    color: darkslateblue;
+    font-size: 24pt;
+    padding-top: 1.75rem;
+}
+
+a:link
+{
+    text-decoration: none;
+    color: dodgerblue;
+    padding: 0.25rem;
+}
+
+a:hover
+{
+    color: white;
+    background-color: orangered;
+}
+
+a>span
+{
+    font-weight: bold;
+}
+
+main span:only-of-type
+{
+    display: inline-block;
+    font-size: 14pt;
+    font-weight: bold;
+    width: 20rem;
+}
+
+[name="policy"]:first-of-type
+{
+    margin-left: 20.5rem;
+}
+
+label
+{
+    display: inline-block;
+    margin: 0.25rem;
+}
+
+[type="submit"]
+{
+    background-color: cornflowerblue;
+    font-size: 13pt;
+    border: solid 1pt royalblue;
+    border-radius: 2pt;
+    margin: 2rem 0 0 20.5rem;
+    padding: 0.25rem 1rem 0.25rem 1rem;
+}
+
+[type="submit"]:hover
+{
+    background-color: skyblue;
+}
