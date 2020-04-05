@@ -1,0 +1,25 @@
+body
+{
+    padding-top: 50px;
+}
+
+#carousel-example-generic
+{
+    height: 480px;
+}
+
+main img
+{
+    margin: auto;
+}
+
+.carousel-inner>div:first-child>img
+{
+    margin-top: 27px;
+}
+
+footer>div
+{
+    font-style: italic;
+    margin-top: 20px;
+}
